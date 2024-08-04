@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4f75fb3b1adab321392b736ca28fadf0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4f75fb3b1adab321392b736ca28fadf0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4f75fb3b1adab321392b736ca28fadf0 = L.map(
+                "map_4f75fb3b1adab321392b736ca28fadf0",
+                {
+                    center: [36.2048, 138.2529],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+
+            
+
+        
+    
+            var tile_layer_92b0a381c87a794cf34233f8fcb674c7 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_92b0a381c87a794cf34233f8fcb674c7.addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+            tile_layer_92b0a381c87a794cf34233f8fcb674c7.addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+            var circle_marker_4af7d7d683261f4d004e0ac8fd370030 = L.circleMarker(
+                [36.5801378827865, 138.169955583164],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_f504427428f5e5a05f4154cd9a40cd9d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d419e1983488762941de47f1dc241e68 = $(`<div id="html_d419e1983488762941de47f1dc241e68" style="width: 100.0%; height: 100.0%;"><b>Team:</b> AC Nagano Parceiro<br><b>Stadium:</b> Nagano U Stadium<br><b>Average Spectators:</b> 3262<br><b>League:</b> J3</div>`)[0];
+                popup_f504427428f5e5a05f4154cd9a40cd9d.setContent(html_d419e1983488762941de47f1dc241e68);
+            
+        
+
+        circle_marker_4af7d7d683261f4d004e0ac8fd370030.bindPopup(popup_f504427428f5e5a05f4154cd9a40cd9d)
+        ;
+
+        
+    
+    
+            var circle_marker_f29bfb8366fa8287f82638c1759f343d = L.circleMarker(
+                [37.8825486719636, 139.059132010198],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_bab317fb006b04550c5bcc47f4d948e6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_644aebf3a218c5cea0897c8589d63503 = $(`<div id="html_644aebf3a218c5cea0897c8589d63503" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Albirex Niigata<br><b>Stadium:</b> Denka Big Swan Stadium<br><b>Average Spectators:</b> 22580<br><b>League:</b> J1</div>`)[0];
+                popup_bab317fb006b04550c5bcc47f4d948e6.setContent(html_644aebf3a218c5cea0897c8589d63503);
+            
+        
+
+        circle_marker_f29bfb8366fa8287f82638c1759f343d.bindPopup(popup_bab317fb006b04550c5bcc47f4d948e6)
+        ;
+
+        
+    
+    
+            var circle_marker_23ba40fb160cdf0c73cf90677b78ec09 = L.circleMarker(
+                [33.5859278242822, 130.460801325384],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_0740c31665885f3b84ef2f5dba6b9def = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_10e061d1c815fde6318cb6a376e113ac = $(`<div id="html_10e061d1c815fde6318cb6a376e113ac" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Avispa Fukuoka<br><b>Stadium:</b> Best Denki Stadium<br><b>Average Spectators:</b> 9050<br><b>League:</b> J1</div>`)[0];
+                popup_0740c31665885f3b84ef2f5dba6b9def.setContent(html_10e061d1c815fde6318cb6a376e113ac);
+            
+        
+
+        circle_marker_23ba40fb160cdf0c73cf90677b78ec09.bindPopup(popup_0740c31665885f3b84ef2f5dba6b9def)
+        ;
+
+        
+    
+    
+            var circle_marker_5f7b3a60a5fcc5b58a090f81475c5113 = L.circleMarker(
+                [35.1560067057204, 138.853656167768],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_0a72acb3208e7667b21729b69d4addba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1ec23aa3a8a6e69da629b4e53548a8d7 = $(`<div id="html_1ec23aa3a8a6e69da629b4e53548a8d7" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Azul Claro Numazu<br><b>Stadium:</b> Ashitaka Park Stadium<br><b>Average Spectators:</b> 2188<br><b>League:</b> J3</div>`)[0];
+                popup_0a72acb3208e7667b21729b69d4addba.setContent(html_1ec23aa3a8a6e69da629b4e53548a8d7);
+            
+        
+
+        circle_marker_5f7b3a60a5fcc5b58a090f81475c5113.bindPopup(popup_0a72acb3208e7667b21729b69d4addba)
+        ;
+
+        
+    
+    
+            var circle_marker_3f5a7042984a01b7bea113efc14d724f = L.circleMarker(
+                [39.7215568759317, 140.095804896778],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_e015421a73842ebc499fb057f5f30a46 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c7ce51bfdbab047ef85a326b39eb3266 = $(`<div id="html_c7ce51bfdbab047ef85a326b39eb3266" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Blaublitz Akita<br><b>Stadium:</b> Soyu Stadium<br><b>Average Spectators:</b> 4007<br><b>League:</b> J2</div>`)[0];
+                popup_e015421a73842ebc499fb057f5f30a46.setContent(html_c7ce51bfdbab047ef85a326b39eb3266);
+            
+        
+
+        circle_marker_3f5a7042984a01b7bea113efc14d724f.bindPopup(popup_e015421a73842ebc499fb057f5f30a46)
+        ;
+
+        
+    
+    
+            var circle_marker_a20d7c401f1e5fa8490466cc100460f0 = L.circleMarker(
+                [34.6153546026183, 135.516427796585],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_09d41e5d917294badc675147e12bc2ab = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bd1bbbf103d214a830a8c5c3b0cf010d = $(`<div id="html_bd1bbbf103d214a830a8c5c3b0cf010d" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Cerezo Osaka<br><b>Stadium:</b> Yodoko Sakura Stadium<br><b>Average Spectators:</b> 18018<br><b>League:</b> J1</div>`)[0];
+                popup_09d41e5d917294badc675147e12bc2ab.setContent(html_bd1bbbf103d214a830a8c5c3b0cf010d);
+            
+        
+
+        circle_marker_a20d7c401f1e5fa8490466cc100460f0.bindPopup(popup_09d41e5d917294badc675147e12bc2ab)
+        ;
+
+        
+    
+    
+            var circle_marker_a32c1458892703ad141f4276f15858ec = L.circleMarker(
+                [33.768285786077, 132.797618054227],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_0139b85decb17ff6d11ab8f323afaedb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7291b7c78dae46c4f7b172e403818fe5 = $(`<div id="html_7291b7c78dae46c4f7b172e403818fe5" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Ehime FC<br><b>Stadium:</b> Ningineer Stadium<br><b>Average Spectators:</b> 4370<br><b>League:</b> J2</div>`)[0];
+                popup_0139b85decb17ff6d11ab8f323afaedb.setContent(html_7291b7c78dae46c4f7b172e403818fe5);
+            
+        
+
+        circle_marker_a32c1458892703ad141f4276f15858ec.bindPopup(popup_0139b85decb17ff6d11ab8f323afaedb)
+        ;
+
+        
+    
+    
+            var circle_marker_63cad5c305457f66646d31ae946a699d = L.circleMarker(
+                [34.6806010163451, 133.9186],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_6f30bb37c36f6826be52c4cd05524f37 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8108f46d06f533792cac4b7a17c2e1e9 = $(`<div id="html_8108f46d06f533792cac4b7a17c2e1e9" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Fagiano Okayama<br><b>Stadium:</b> City Light Stadium<br><b>Average Spectators:</b> 8964<br><b>League:</b> J2</div>`)[0];
+                popup_6f30bb37c36f6826be52c4cd05524f37.setContent(html_8108f46d06f533792cac4b7a17c2e1e9);
+            
+        
+
+        circle_marker_63cad5c305457f66646d31ae946a699d.bindPopup(popup_6f30bb37c36f6826be52c4cd05524f37)
+        ;
+
+        
+    
+    
+            var circle_marker_7ef2af5e2784f8d570be57614a89374b = L.circleMarker(
+                [35.4424802960168, 136.764505281976],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_a3987a9d88ce461e207693de1b9052c1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1b6d889704122c9ee56d2e9e3546e9f5 = $(`<div id="html_1b6d889704122c9ee56d2e9e3546e9f5" style="width: 100.0%; height: 100.0%;"><b>Team:</b> FC Gifu<br><b>Stadium:</b> Gifu Nagaragawa Stadium<br><b>Average Spectators:</b> 4940<br><b>League:</b> J3</div>`)[0];
+                popup_a3987a9d88ce461e207693de1b9052c1.setContent(html_1b6d889704122c9ee56d2e9e3546e9f5);
+            
+        
+
+        circle_marker_7ef2af5e2784f8d570be57614a89374b.bindPopup(popup_a3987a9d88ce461e207693de1b9052c1)
+        ;
+
+        
+    
+    
+            var circle_marker_e9e2c8eea6c3db86e8810cf80540a6cc = L.circleMarker(
+                [34.0409773593989, 132.958582351115],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_146810016b72a164ae1bfaaf08b9d226 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_233439bde8b8ef408c2f7cdeef86a6f3 = $(`<div id="html_233439bde8b8ef408c2f7cdeef86a6f3" style="width: 100.0%; height: 100.0%;"><b>Team:</b> FC Imabari<br><b>Stadium:</b> Satoyama Stadium<br><b>Average Spectators:</b> 3507<br><b>League:</b> J3</div>`)[0];
+                popup_146810016b72a164ae1bfaaf08b9d226.setContent(html_233439bde8b8ef408c2f7cdeef86a6f3);
+            
+        
+
+        circle_marker_e9e2c8eea6c3db86e8810cf80540a6cc.bindPopup(popup_146810016b72a164ae1bfaaf08b9d226)
+        ;
+
+        
+    
+    
+            var circle_marker_54a445d4af894958fd9c64b8f76aa5df = L.circleMarker(
+                [34.6689355520846, 135.626324],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_49d14548796d093ac1c9cb5708e6b997 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_56e3c72c751c08f8235d7f66d09fb1d9 = $(`<div id="html_56e3c72c751c08f8235d7f66d09fb1d9" style="width: 100.0%; height: 100.0%;"><b>Team:</b> FC Osaka<br><b>Stadium:</b> Higashiosaka Hanazono Rugby Stadium<br><b>Average Spectators:</b> 2651<br><b>League:</b> J3</div>`)[0];
+                popup_49d14548796d093ac1c9cb5708e6b997.setContent(html_56e3c72c751c08f8235d7f66d09fb1d9);
+            
+        
+
+        circle_marker_54a445d4af894958fd9c64b8f76aa5df.bindPopup(popup_49d14548796d093ac1c9cb5708e6b997)
+        ;
+
+        
+    
+    
+            var circle_marker_553ab3d71bedb5f65259cca79e9cea4c = L.circleMarker(
+                [26.3086405050907, 127.821185767491],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_6adc602d450d3e4520d6d5584b59002c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3d2c69aec8454f713e785f6cd1fc69a6 = $(`<div id="html_3d2c69aec8454f713e785f6cd1fc69a6" style="width: 100.0%; height: 100.0%;"><b>Team:</b> FC Ryukyu<br><b>Stadium:</b> Tapic Kenso Hiyagon Stadium<br><b>Average Spectators:</b> 2798<br><b>League:</b> J3</div>`)[0];
+                popup_6adc602d450d3e4520d6d5584b59002c.setContent(html_3d2c69aec8454f713e785f6cd1fc69a6);
+            
+        
+
+        circle_marker_553ab3d71bedb5f65259cca79e9cea4c.bindPopup(popup_6adc602d450d3e4520d6d5584b59002c)
+        ;
+
+        
+    
+    
+            var circle_marker_5799f078e469a25f806ee1996fc76b72 = L.circleMarker(
+                [35.664, 139.527],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_c331f8b0cbab76e0ba18782186ac809d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bc82c3e5e919d444818cffc58d4cd43b = $(`<div id="html_bc82c3e5e919d444818cffc58d4cd43b" style="width: 100.0%; height: 100.0%;"><b>Team:</b> FC Tokyo<br><b>Stadium:</b> Ajinomoto Stadium<br><b>Average Spectators:</b> 31980<br><b>League:</b> J1</div>`)[0];
+                popup_c331f8b0cbab76e0ba18782186ac809d.setContent(html_bc82c3e5e919d444818cffc58d4cd43b);
+            
+        
+
+        circle_marker_5799f078e469a25f806ee1996fc76b72.bindPopup(popup_c331f8b0cbab76e0ba18782186ac809d)
+        ;
+
+        
+    
+    
+            var circle_marker_203a1404573a5e8227cbc5e3c562bc76 = L.circleMarker(
+                [34.8815731753606, 138.232913067758],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_195ee8d9cc75f0f1c318aae52f9c2d45 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dca0e451d327b1b44aaab95558671be4 = $(`<div id="html_dca0e451d327b1b44aaab95558671be4" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Fujieda MYFC<br><b>Stadium:</b> Fujieda Soccer Stadium<br><b>Average Spectators:</b> 3712<br><b>League:</b> J2</div>`)[0];
+                popup_195ee8d9cc75f0f1c318aae52f9c2d45.setContent(html_dca0e451d327b1b44aaab95558671be4);
+            
+        
+
+        circle_marker_203a1404573a5e8227cbc5e3c562bc76.bindPopup(popup_195ee8d9cc75f0f1c318aae52f9c2d45)
+        ;
+
+        
+    
+    
+            var circle_marker_c8418919626659a685f562003388db5b = L.circleMarker(
+                [37.7233293206501, 140.361338110192],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_7997ad2895977cbd93e5ef6dff0e3bbd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_28071fad6420380ba4c26090d8997767 = $(`<div id="html_28071fad6420380ba4c26090d8997767" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Fukushima United<br><b>Stadium:</b> Toho Stadium<br><b>Average Spectators:</b> 1328<br><b>League:</b> J3</div>`)[0];
+                popup_7997ad2895977cbd93e5ef6dff0e3bbd.setContent(html_28071fad6420380ba4c26090d8997767);
+            
+        
+
+        circle_marker_c8418919626659a685f562003388db5b.bindPopup(popup_7997ad2895977cbd93e5ef6dff0e3bbd)
+        ;
+
+        
+    
+    
+            var circle_marker_a8b695c91a893e03da6f1c6e20989772 = L.circleMarker(
+                [35.4583790630657, 134.221243881272],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_484e10667a373074e0068005b838f949 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2ab1170400bf9de87d5a85b9e16baef5 = $(`<div id="html_2ab1170400bf9de87d5a85b9e16baef5" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Gainare Tottori<br><b>Stadium:</b> Axis Bird Stadium<br><b>Average Spectators:</b> 2197<br><b>League:</b> J3</div>`)[0];
+                popup_484e10667a373074e0068005b838f949.setContent(html_2ab1170400bf9de87d5a85b9e16baef5);
+            
+        
+
+        circle_marker_a8b695c91a893e03da6f1c6e20989772.bindPopup(popup_484e10667a373074e0068005b838f949)
+        ;
+
+        
+    
+    
+            var circle_marker_9350f10518ba5216ebc5b609d74d3016 = L.circleMarker(
+                [34.8026944825767, 135.53814973892],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_50acec9c8e6c2cf9ce797212310323a9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a8452c850c6fea600f3c21cc5523cfaf = $(`<div id="html_a8452c850c6fea600f3c21cc5523cfaf" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Gamba Osaka<br><b>Stadium:</b> Panasonic Stadium Suita<br><b>Average Spectators:</b> 25716<br><b>League:</b> J1</div>`)[0];
+                popup_50acec9c8e6c2cf9ce797212310323a9.setContent(html_a8452c850c6fea600f3c21cc5523cfaf);
+            
+        
+
+        circle_marker_9350f10518ba5216ebc5b609d74d3016.bindPopup(popup_50acec9c8e6c2cf9ce797212310323a9)
+        ;
+
+        
+    
+    
+            var circle_marker_937a81c733c84f9ba242ba2355c4264f = L.circleMarker(
+                [33.8913088108525, 130.888760911902],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_1b8a8b0e854af1a88455fabd38885206 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_654859e7ed02dda80df999691d2de821 = $(`<div id="html_654859e7ed02dda80df999691d2de821" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Giravanz Kitakyushu<br><b>Stadium:</b> Mikuni World Stadium Kitakyushu<br><b>Average Spectators:</b> 3820<br><b>League:</b> J3</div>`)[0];
+                popup_1b8a8b0e854af1a88455fabd38885206.setContent(html_654859e7ed02dda80df999691d2de821);
+            
+        
+
+        circle_marker_937a81c733c84f9ba242ba2355c4264f.bindPopup(popup_1b8a8b0e854af1a88455fabd38885206)
+        ;
+
+        
+    
+    
+            var circle_marker_fce23a38b3cb638cb421acac807a161a = L.circleMarker(
+                [43.014, 141.4094],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_c1250c81854ef0ad6b0ab8ac1c014830 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8ae52e84b8a21a1d851fa7aee5c46217 = $(`<div id="html_8ae52e84b8a21a1d851fa7aee5c46217" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Hokkaido Consadole Sapporo<br><b>Stadium:</b> Sapporo Dome<br><b>Average Spectators:</b> 14690<br><b>League:</b> J1</div>`)[0];
+                popup_c1250c81854ef0ad6b0ab8ac1c014830.setContent(html_8ae52e84b8a21a1d851fa7aee5c46217);
+            
+        
+
+        circle_marker_fce23a38b3cb638cb421acac807a161a.bindPopup(popup_c1250c81854ef0ad6b0ab8ac1c014830)
+        ;
+
+        
+    
+    
+            var circle_marker_6599e221eb85656869b24f9376783b38 = L.circleMarker(
+                [37.017391503409, 140.864384525508],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_dd8149f9e6725ca9aaf90a8c5625afd7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7c85e96af9ad3467ec867e6bc4e882af = $(`<div id="html_7c85e96af9ad3467ec867e6bc4e882af" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Iwaki FC<br><b>Stadium:</b> Hawaiians Stadium Iwaki<br><b>Average Spectators:</b> 4144<br><b>League:</b> J2</div>`)[0];
+                popup_dd8149f9e6725ca9aaf90a8c5625afd7.setContent(html_7c85e96af9ad3467ec867e6bc4e882af);
+            
+        
+
+        circle_marker_6599e221eb85656869b24f9376783b38.bindPopup(popup_dd8149f9e6725ca9aaf90a8c5625afd7)
+        ;
+
+        
+    
+    
+            var circle_marker_d2bd7a8649807e69baef415173dcb460 = L.circleMarker(
+                [39.6479963426222, 141.138117032852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_3a1e523a1640fb05169ac73d85168d5c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9945faee8ce501a8334a785669e62cf1 = $(`<div id="html_9945faee8ce501a8334a785669e62cf1" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Iwate Grulla Morioka<br><b>Stadium:</b> Iwagin Stadium<br><b>Average Spectators:</b> 1184<br><b>League:</b> J3</div>`)[0];
+                popup_3a1e523a1640fb05169ac73d85168d5c.setContent(html_9945faee8ce501a8334a785669e62cf1);
+            
+        
+
+        circle_marker_d2bd7a8649807e69baef415173dcb460.bindPopup(popup_3a1e523a1640fb05169ac73d85168d5c)
+        ;
+
+        
+    
+    
+            var circle_marker_a9cf524c07fd91259d9ed8922401aa43 = L.circleMarker(
+                [35.5774607204667, 140.122841067783],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_2d11c6956f701cbdf0b1bd932131c94d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_74f164c87d7abc54f52bbd9fec4a30bd = $(`<div id="html_74f164c87d7abc54f52bbd9fec4a30bd" style="width: 100.0%; height: 100.0%;"><b>Team:</b> JEF United Chiba<br><b>Stadium:</b> Fukuda Denshi Arena<br><b>Average Spectators:</b> 9612<br><b>League:</b> J2</div>`)[0];
+                popup_2d11c6956f701cbdf0b1bd932131c94d.setContent(html_74f164c87d7abc54f52bbd9fec4a30bd);
+            
+        
+
+        circle_marker_a9cf524c07fd91259d9ed8922401aa43.bindPopup(popup_2d11c6956f701cbdf0b1bd932131c94d)
+        ;
+
+        
+    
+    
+            var circle_marker_d7d957f5d5f83a6e5fd3a8dd97c2ff0b = L.circleMarker(
+                [34.7252289267955, 137.875071596588],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_3d7048602af6b07ee1b5345037bf8565 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8a9b5f2d388688bd53a6a9190b18892f = $(`<div id="html_8a9b5f2d388688bd53a6a9190b18892f" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Jubilo Iwata<br><b>Stadium:</b> Yamaha Stadium<br><b>Average Spectators:</b> 12794<br><b>League:</b> J1</div>`)[0];
+                popup_3d7048602af6b07ee1b5345037bf8565.setContent(html_8a9b5f2d388688bd53a6a9190b18892f);
+            
+        
+
+        circle_marker_d7d957f5d5f83a6e5fd3a8dd97c2ff0b.bindPopup(popup_3d7048602af6b07ee1b5345037bf8565)
+        ;
+
+        
+    
+    
+            var circle_marker_908716585e434775ac5d56cd7c5b9860 = L.circleMarker(
+                [31.5648112912228, 130.559794796481],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_31e6e61d8b420b920ff3f1f8eff8c6c2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_526d27bd08e4b45261383c3c2b4f8bdd = $(`<div id="html_526d27bd08e4b45261383c3c2b4f8bdd" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Kagoshima United<br><b>Stadium:</b> Shiranami Stadium<br><b>Average Spectators:</b> 5860<br><b>League:</b> J2</div>`)[0];
+                popup_31e6e61d8b420b920ff3f1f8eff8c6c2.setContent(html_526d27bd08e4b45261383c3c2b4f8bdd);
+            
+        
+
+        circle_marker_908716585e434775ac5d56cd7c5b9860.bindPopup(popup_31e6e61d8b420b920ff3f1f8eff8c6c2)
+        ;
+
+        
+    
+    
+            var circle_marker_3bb07b42a28191d0a035e114f5061fb7 = L.circleMarker(
+                [34.2620271187404, 133.786164471438],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_6d6b80a900c580e713c022ea0c73d16c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d3e535bd248b8c6cae341ab5ec212a68 = $(`<div id="html_d3e535bd248b8c6cae341ab5ec212a68" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Kamatamare Sanuki<br><b>Stadium:</b> Pikara Stadium<br><b>Average Spectators:</b> 1562<br><b>League:</b> J3</div>`)[0];
+                popup_6d6b80a900c580e713c022ea0c73d16c.setContent(html_d3e535bd248b8c6cae341ab5ec212a68);
+            
+        
+
+        circle_marker_3bb07b42a28191d0a035e114f5061fb7.bindPopup(popup_6d6b80a900c580e713c022ea0c73d16c)
+        ;
+
+        
+    
+    
+            var circle_marker_bc514e7c641b1bb541ea70d020bd1950 = L.circleMarker(
+                [35.9920081918045, 140.640232269649],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_dde6328c9c98d7fd12042b6d0d1c8ccc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3f363a42ff092de846f8578525f56cff = $(`<div id="html_3f363a42ff092de846f8578525f56cff" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Kashima Antlers<br><b>Stadium:</b> Kashima Soccer Stadium<br><b>Average Spectators:</b> 22629<br><b>League:</b> J1</div>`)[0];
+                popup_dde6328c9c98d7fd12042b6d0d1c8ccc.setContent(html_3f363a42ff092de846f8578525f56cff);
+            
+        
+
+        circle_marker_bc514e7c641b1bb541ea70d020bd1950.bindPopup(popup_dde6328c9c98d7fd12042b6d0d1c8ccc)
+        ;
+
+        
+    
+    
+            var circle_marker_e8cb6992c8fd57392d7ef7dc6a513713 = L.circleMarker(
+                [35.8488822653673, 139.975438938957],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_2930d7239973340c3fd03766f54a8da6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b0eddb2c34de3f9257f137bea3b703f6 = $(`<div id="html_b0eddb2c34de3f9257f137bea3b703f6" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Kashiwa Reysol<br><b>Stadium:</b> Sankyo Frontier Kashiwa Stadium<br><b>Average Spectators:</b> 11259<br><b>League:</b> J1</div>`)[0];
+                popup_2930d7239973340c3fd03766f54a8da6.setContent(html_b0eddb2c34de3f9257f137bea3b703f6);
+            
+        
+
+        circle_marker_e8cb6992c8fd57392d7ef7dc6a513713.bindPopup(popup_2930d7239973340c3fd03766f54a8da6)
+        ;
+
+        
+    
+    
+            var circle_marker_297adf8594b74756aa547b9264d3298a = L.circleMarker(
+                [36.6251372402602, 137.195704325493],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_933f9708ecd03e6ecfc237fb31829af5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c7f9ee38312d08ecce33eab5823d1c28 = $(`<div id="html_c7f9ee38312d08ecce33eab5823d1c28" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Kataller Toyama<br><b>Stadium:</b> Toyama Athletic Recreation Park Stadium<br><b>Average Spectators:</b> 3102<br><b>League:</b> J3</div>`)[0];
+                popup_933f9708ecd03e6ecfc237fb31829af5.setContent(html_c7f9ee38312d08ecce33eab5823d1c28);
+            
+        
+
+        circle_marker_297adf8594b74756aa547b9264d3298a.bindPopup(popup_933f9708ecd03e6ecfc237fb31829af5)
+        ;
+
+        
+    
+    
+            var circle_marker_8293133b438c046cb4243c377b46ff28 = L.circleMarker(
+                [35.585798847452, 139.652711167783],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_f8b58eb68b7b5c99c49129f777171dff = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fae3f9c284c1dfb467df4646338a31b6 = $(`<div id="html_fae3f9c284c1dfb467df4646338a31b6" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Kawasaki Frontale<br><b>Stadium:</b> Kawasaki Todoroki Stadium<br><b>Average Spectators:</b> 21360<br><b>League:</b> J1</div>`)[0];
+                popup_f8b58eb68b7b5c99c49129f777171dff.setContent(html_fae3f9c284c1dfb467df4646338a31b6);
+            
+        
+
+        circle_marker_8293133b438c046cb4243c377b46ff28.bindPopup(popup_f8b58eb68b7b5c99c49129f777171dff)
+        ;
+
+        
+    
+    
+            var circle_marker_8312f4229b85c297833ba4ba11a3c6c5 = L.circleMarker(
+                [35.0172119728145, 135.584860754271],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_caacb4819c54b187ee34f79b2f641263 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_491d4875137a9aa82ae558e725a005a5 = $(`<div id="html_491d4875137a9aa82ae558e725a005a5" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Kyoto Sanga<br><b>Stadium:</b> Sanga Stadium by Kyocera<br><b>Average Spectators:</b> 11718<br><b>League:</b> J1</div>`)[0];
+                popup_caacb4819c54b187ee34f79b2f641263.setContent(html_491d4875137a9aa82ae558e725a005a5);
+            
+        
+
+        circle_marker_8312f4229b85c297833ba4ba11a3c6c5.bindPopup(popup_caacb4819c54b187ee34f79b2f641263)
+        ;
+
+        
+    
+    
+            var circle_marker_e02cf1f6e82325329263badd0a7a4002 = L.circleMarker(
+                [35.5925697726215, 139.43889489662],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_3e903914da9330054528e9ed7c933eca = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fb49a7c62a557a4db853fce7ce31ef3e = $(`<div id="html_fb49a7c62a557a4db853fce7ce31ef3e" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Machida Zelvia<br><b>Stadium:</b> Machida GION Stadium<br><b>Average Spectators:</b> 15204<br><b>League:</b> J1</div>`)[0];
+                popup_3e903914da9330054528e9ed7c933eca.setContent(html_fb49a7c62a557a4db853fce7ce31ef3e);
+            
+        
+
+        circle_marker_e02cf1f6e82325329263badd0a7a4002.bindPopup(popup_3e903914da9330054528e9ed7c933eca)
+        ;
+
+        
+    
+    
+            var circle_marker_e306bd129be3bddd868cd1820af81a8a = L.circleMarker(
+                [36.1798137922248, 137.917194311984],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_b822fefe4725173a94254cd763ac7a2a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dec089b20b4cf06a47991fbb2f0181f5 = $(`<div id="html_dec089b20b4cf06a47991fbb2f0181f5" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Matsumoto Yamaga<br><b>Stadium:</b> Sunpro Alwin<br><b>Average Spectators:</b> 8124<br><b>League:</b> J3</div>`)[0];
+                popup_b822fefe4725173a94254cd763ac7a2a.setContent(html_dec089b20b4cf06a47991fbb2f0181f5);
+            
+        
+
+        circle_marker_e306bd129be3bddd868cd1820af81a8a.bindPopup(popup_b822fefe4725173a94254cd763ac7a2a)
+        ;
+
+        
+    
+    
+            var circle_marker_f57e5de3811c7d96b1a49d9ee441aefd = L.circleMarker(
+                [36.345281089088, 140.412418538975],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_4b9236f5f2f8eb9481cd541da4c46d3a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c8291d4cc0a225e457153ddfac7fd5d1 = $(`<div id="html_c8291d4cc0a225e457153ddfac7fd5d1" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Mito Hollyhock<br><b>Stadium:</b> K's Denki Stadium Mito<br><b>Average Spectators:</b> 3647<br><b>League:</b> J2</div>`)[0];
+                popup_4b9236f5f2f8eb9481cd541da4c46d3a.setContent(html_c8291d4cc0a225e457153ddfac7fd5d1);
+            
+        
+
+        circle_marker_f57e5de3811c7d96b1a49d9ee441aefd.bindPopup(popup_4b9236f5f2f8eb9481cd541da4c46d3a)
+        ;
+
+        
+    
+    
+            var circle_marker_7583dcc4079cbc58d3d702ea0bf9d37b = L.circleMarker(
+                [38.3355990186703, 140.378446625559],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_6e33d0ceecf5331dbac489ea720686fc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_40dfd175d20f113d88b699c87181224e = $(`<div id="html_40dfd175d20f113d88b699c87181224e" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Montedio Yamagata<br><b>Stadium:</b> ND Soft Stadium Yamagata<br><b>Average Spectators:</b> 9137<br><b>League:</b> J2</div>`)[0];
+                popup_6e33d0ceecf5331dbac489ea720686fc.setContent(html_40dfd175d20f113d88b699c87181224e);
+            
+        
+
+        circle_marker_7583dcc4079cbc58d3d702ea0bf9d37b.bindPopup(popup_6e33d0ceecf5331dbac489ea720686fc)
+        ;
+
+        
+    
+    
+            var circle_marker_261cce4402b49a6fb73eb21a8a98d47a = L.circleMarker(
+                [35.0844774674095, 137.170906535684],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_c76ed7892df0b1e86b54443c43e9cd0e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1e9175462504fed60d942bf19cbec603 = $(`<div id="html_1e9175462504fed60d942bf19cbec603" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Nagoya Grampus<br><b>Stadium:</b> Toyota Stadium<br><b>Average Spectators:</b> 27078<br><b>League:</b> J1</div>`)[0];
+                popup_c76ed7892df0b1e86b54443c43e9cd0e.setContent(html_1e9175462504fed60d942bf19cbec603);
+            
+        
+
+        circle_marker_261cce4402b49a6fb73eb21a8a98d47a.bindPopup(popup_c76ed7892df0b1e86b54443c43e9cd0e)
+        ;
+
+        
+    
+    
+            var circle_marker_ce2f893454daeffde55141376b1cfb49 = L.circleMarker(
+                [34.6974634557152, 135.828372761505],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_097855aac91f64717dbf050304198caa = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ea091e7cac5378d4de568bee5b3574f5 = $(`<div id="html_ea091e7cac5378d4de568bee5b3574f5" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Nara Club<br><b>Stadium:</b> Rohto Field Nara<br><b>Average Spectators:</b> 1823<br><b>League:</b> J3</div>`)[0];
+                popup_097855aac91f64717dbf050304198caa.setContent(html_ea091e7cac5378d4de568bee5b3574f5);
+            
+        
+
+        circle_marker_ce2f893454daeffde55141376b1cfb49.bindPopup(popup_097855aac91f64717dbf050304198caa)
+        ;
+
+        
+    
+    
+            var circle_marker_b5ad6ace5dec41186f32111661a2968a = L.circleMarker(
+                [33.2008130057703, 131.657510725372],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_2ca4f02836c8564ab0ef9fa23fc5642e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_53a9f7e321dc64caa79ccd5c8d827a5a = $(`<div id="html_53a9f7e321dc64caa79ccd5c8d827a5a" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Oita Trinita<br><b>Stadium:</b> Showa Denko Dome Oita<br><b>Average Spectators:</b> 9353<br><b>League:</b> J2</div>`)[0];
+                popup_2ca4f02836c8564ab0ef9fa23fc5642e.setContent(html_53a9f7e321dc64caa79ccd5c8d827a5a);
+            
+        
+
+        circle_marker_b5ad6ace5dec41186f32111661a2968a.bindPopup(popup_2ca4f02836c8564ab0ef9fa23fc5642e)
+        ;
+
+        
+    
+    
+            var circle_marker_ea4195360d42c6d9318d8aabff673e6d = L.circleMarker(
+                [35.9162187944744, 139.63349763896],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_736275dcea4824be41928314b74bc161 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0212cc278a9a5a96ee06c9fdea319ab4 = $(`<div id="html_0212cc278a9a5a96ee06c9fdea319ab4" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Omiya Ardija<br><b>Stadium:</b> NACK5 Stadium Omiya<br><b>Average Spectators:</b> 6950<br><b>League:</b> J3</div>`)[0];
+                popup_736275dcea4824be41928314b74bc161.setContent(html_0212cc278a9a5a96ee06c9fdea319ab4);
+            
+        
+
+        circle_marker_ea4195360d42c6d9318d8aabff673e6d.bindPopup(popup_736275dcea4824be41928314b74bc161)
+        ;
+
+        
+    
+    
+            var circle_marker_61bff9959d010732bcafd8e891741e9d = L.circleMarker(
+                [34.1545224003186, 131.437511525404],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_50b44314c753c0cf6115c815c620fd59 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_459e05db38a64f4c5cf31702a387224c = $(`<div id="html_459e05db38a64f4c5cf31702a387224c" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Renofa Yamaguchi<br><b>Stadium:</b> Ishin Me-Life Stadium<br><b>Average Spectators:</b> 5364<br><b>League:</b> J2</div>`)[0];
+                popup_50b44314c753c0cf6115c815c620fd59.setContent(html_459e05db38a64f4c5cf31702a387224c);
+            
+        
+
+        circle_marker_61bff9959d010732bcafd8e891741e9d.bindPopup(popup_50b44314c753c0cf6115c815c620fd59)
+        ;
+
+        
+    
+    
+            var circle_marker_17e5793729882babe1a737b5c861c312 = L.circleMarker(
+                [32.8368808027627, 130.800126367688],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_df14f7875e785c877d5aa5841206eed0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ff1c667590666b3955e979137ab59d37 = $(`<div id="html_ff1c667590666b3955e979137ab59d37" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Roasso Kumamoto<br><b>Stadium:</b> Egao Kenko Stadium<br><b>Average Spectators:</b> 5492<br><b>League:</b> J2</div>`)[0];
+                popup_df14f7875e785c877d5aa5841206eed0.setContent(html_ff1c667590666b3955e979137ab59d37);
+            
+        
+
+        circle_marker_17e5793729882babe1a737b5c861c312.bindPopup(popup_df14f7875e785c877d5aa5841206eed0)
+        ;
+
+        
+    
+    
+            var circle_marker_51dc12d914d850539795296995337a6f = L.circleMarker(
+                [35.5271298093126, 139.386460983125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_d7d9da8d81005dd28bfd2bce0cf4adb0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d87024a70b7021d89f9894598c0f9bea = $(`<div id="html_d87024a70b7021d89f9894598c0f9bea" style="width: 100.0%; height: 100.0%;"><b>Team:</b> S.C. Sagamihara<br><b>Stadium:</b> Sagamihara Gion Stadium<br><b>Average Spectators:</b> 8548<br><b>League:</b> J3</div>`)[0];
+                popup_d7d9da8d81005dd28bfd2bce0cf4adb0.setContent(html_d87024a70b7021d89f9894598c0f9bea);
+            
+        
+
+        circle_marker_51dc12d914d850539795296995337a6f.bindPopup(popup_d7d9da8d81005dd28bfd2bce0cf4adb0)
+        ;
+
+        
+    
+    
+            var circle_marker_b6c54c86b92f03fc59af9811998c8551 = L.circleMarker(
+                [33.3716825332906, 130.520259125377],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_64e419141cf66451a088f159870b5a59 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1b4d4266377486ad088ca89845ff2726 = $(`<div id="html_1b4d4266377486ad088ca89845ff2726" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Sagan Tosu<br><b>Stadium:</b> Ekimae Real Estate Stadium<br><b>Average Spectators:</b> 25410<br><b>League:</b> J1</div>`)[0];
+                popup_64e419141cf66451a088f159870b5a59.setContent(html_1b4d4266377486ad088ca89845ff2726);
+            
+        
+
+        circle_marker_b6c54c86b92f03fc59af9811998c8551.bindPopup(popup_64e419141cf66451a088f159870b5a59)
+        ;
+
+        
+    
+    
+            var circle_marker_342463fafebda0079296abe018964bc3 = L.circleMarker(
+                [34.4015953269613, 132.453850504758],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_473fede50982f56f6aea157b3fc47438 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9c2658aea6ab6f2e44561586c088dc34 = $(`<div id="html_9c2658aea6ab6f2e44561586c088dc34" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Sanfrecce Hiroshima<br><b>Stadium:</b> Edion Stadium Hiroshima<br><b>Average Spectators:</b> 3143<br><b>League:</b> J1</div>`)[0];
+                popup_473fede50982f56f6aea157b3fc47438.setContent(html_9c2658aea6ab6f2e44561586c088dc34);
+            
+        
+
+        circle_marker_342463fafebda0079296abe018964bc3.bindPopup(popup_473fede50982f56f6aea157b3fc47438)
+        ;
+
+        
+    
+    
+            var circle_marker_0c0753a30bc13f3ad1ba3adc6556df47 = L.circleMarker(
+                [34.9843886299286, 138.481297291271],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_d634a1103b3ea760e70fcab6d012493a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1f8df22a12a434bed1bdc954c69a1574 = $(`<div id="html_1f8df22a12a434bed1bdc954c69a1574" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Shimizu S-Pulse<br><b>Stadium:</b> IAI Stadium Nihondaira<br><b>Average Spectators:</b> 14850<br><b>League:</b> J2</div>`)[0];
+                popup_d634a1103b3ea760e70fcab6d012493a.setContent(html_1f8df22a12a434bed1bdc954c69a1574);
+            
+        
+
+        circle_marker_0c0753a30bc13f3ad1ba3adc6556df47.bindPopup(popup_d634a1103b3ea760e70fcab6d012493a)
+        ;
+
+        
+    
+    
+            var circle_marker_14c38ca89d4abddf26b4b9b9f4453960 = L.circleMarker(
+                [35.3435614697254, 139.341157838939],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_b3df6204f8210efe9158084387eea740 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f4a415daec70df50681349c72042223c = $(`<div id="html_f4a415daec70df50681349c72042223c" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Shonan Bellmare<br><b>Stadium:</b> Lemon Gas Stadium Hiratsuka<br><b>Average Spectators:</b> 10948<br><b>League:</b> J1</div>`)[0];
+                popup_b3df6204f8210efe9158084387eea740.setContent(html_f4a415daec70df50681349c72042223c);
+            
+        
+
+        circle_marker_14c38ca89d4abddf26b4b9b9f4453960.bindPopup(popup_b3df6204f8210efe9158084387eea740)
+        ;
+
+        
+    
+    
+            var circle_marker_3b5c24ed4979778a1954e0477a198138 = L.circleMarker(
+                [32.0739090512424, 131.490992040677],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_4cfd34065fa7d647fe2d91bafc368010 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4d413201cb0eb92c1fca4be8508fab08 = $(`<div id="html_4d413201cb0eb92c1fca4be8508fab08" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Tegevajaro Miyazaki<br><b>Stadium:</b> Unilever Stadium Shintomi<br><b>Average Spectators:</b> 1026<br><b>League:</b> J3</div>`)[0];
+                popup_4cfd34065fa7d647fe2d91bafc368010.setContent(html_4d413201cb0eb92c1fca4be8508fab08);
+            
+        
+
+        circle_marker_3b5c24ed4979778a1954e0477a198138.bindPopup(popup_4cfd34065fa7d647fe2d91bafc368010)
+        ;
+
+        
+    
+    
+            var circle_marker_2e9d36bc94a86aa8f2003fb861519f8c = L.circleMarker(
+                [36.4114798694774, 139.053315067814],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_02e95e5d62036b1c181e6e142bd1716f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_61293a9d3a611780168d5d55e04ddf27 = $(`<div id="html_61293a9d3a611780168d5d55e04ddf27" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Thespakusatsu Gunma<br><b>Stadium:</b> Shoda Shoyu Stadium Gunma<br><b>Average Spectators:</b> 3979<br><b>League:</b> J2</div>`)[0];
+                popup_02e95e5d62036b1c181e6e142bd1716f.setContent(html_61293a9d3a611780168d5d55e04ddf27);
+            
+        
+
+        circle_marker_2e9d36bc94a86aa8f2003fb861519f8c.bindPopup(popup_02e95e5d62036b1c181e6e142bd1716f)
+        ;
+
+        
+    
+    
+            var circle_marker_77ba0fadcd783078d22a6991c66f7a73 = L.circleMarker(
+                [36.5150017951128, 139.857646138982],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_6737546ac2c2a3bb967b9b8f0c6a5c09 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_156d38d657796989a08ecf881c36dcc2 = $(`<div id="html_156d38d657796989a08ecf881c36dcc2" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Tochigi SC<br><b>Stadium:</b> Kanseki stadium<br><b>Average Spectators:</b> 5454<br><b>League:</b> J2</div>`)[0];
+                popup_6737546ac2c2a3bb967b9b8f0c6a5c09.setContent(html_156d38d657796989a08ecf881c36dcc2);
+            
+        
+
+        circle_marker_77ba0fadcd783078d22a6991c66f7a73.bindPopup(popup_6737546ac2c2a3bb967b9b8f0c6a5c09)
+        ;
+
+        
+    
+    
+            var circle_marker_ccf07dae5786d5786c00e4c492173ea7 = L.circleMarker(
+                [34.1683687656136, 134.61786765424],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_4b7254161c98c0f7daf8dce96cf0d080 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6b187784f0d5ef33e18fe7c5794458bd = $(`<div id="html_6b187784f0d5ef33e18fe7c5794458bd" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Tokushima Vortis<br><b>Stadium:</b> Pocari Sweat Stadium<br><b>Average Spectators:</b> 5317<br><b>League:</b> J2</div>`)[0];
+                popup_4b7254161c98c0f7daf8dce96cf0d080.setContent(html_6b187784f0d5ef33e18fe7c5794458bd);
+            
+        
+
+        circle_marker_ccf07dae5786d5786c00e4c492173ea7.bindPopup(popup_4b7254161c98c0f7daf8dce96cf0d080)
+        ;
+
+        
+    
+    
+            var circle_marker_b81ecbce8d7c8cffd46d2be6bc7fa931 = L.circleMarker(
+                [35.6640579725983, 139.527174196622],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_d9f36183b16af246447284996e5ecb48 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_441243c69ca7b73f5448c22a95944d5e = $(`<div id="html_441243c69ca7b73f5448c22a95944d5e" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Tokyo Verdy<br><b>Stadium:</b> Ajinomoto Stadium<br><b>Average Spectators:</b> 20709<br><b>League:</b> J1</div>`)[0];
+                popup_d9f36183b16af246447284996e5ecb48.setContent(html_441243c69ca7b73f5448c22a95944d5e);
+            
+        
+
+        circle_marker_b81ecbce8d7c8cffd46d2be6bc7fa931.bindPopup(popup_d9f36183b16af246447284996e5ecb48)
+        ;
+
+        
+    
+    
+            var circle_marker_946859403d7021828f76a443741ddcdb = L.circleMarker(
+                [35.9032562907814, 139.717587266624],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_41ed4daa7923cec7e369c6ad0faea647 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_40ff5bad6ff903627a07607bfb687f94 = $(`<div id="html_40ff5bad6ff903627a07607bfb687f94" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Urawa Reds<br><b>Stadium:</b> Saitama Stadium 2002<br><b>Average Spectators:</b> 36969<br><b>League:</b> J1</div>`)[0];
+                popup_41ed4daa7923cec7e369c6ad0faea647.setContent(html_40ff5bad6ff903627a07607bfb687f94);
+            
+        
+
+        circle_marker_946859403d7021828f76a443741ddcdb.bindPopup(popup_41ed4daa7923cec7e369c6ad0faea647)
+        ;
+
+        
+    
+    
+            var circle_marker_188a09c12fd83445dea0a4ffb7a9a58b = L.circleMarker(
+                [40.5907825565774, 141.457233932794],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_4f70f9b4b3ee22a15d583672b335e155 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_86e729be4cee61af47b9b25060cbd184 = $(`<div id="html_86e729be4cee61af47b9b25060cbd184" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Vanraure Hachinohe<br><b>Stadium:</b> Prifoods Stadium<br><b>Average Spectators:</b> 1605<br><b>League:</b> J3</div>`)[0];
+                popup_4f70f9b4b3ee22a15d583672b335e155.setContent(html_86e729be4cee61af47b9b25060cbd184);
+            
+        
+
+        circle_marker_188a09c12fd83445dea0a4ffb7a9a58b.bindPopup(popup_4f70f9b4b3ee22a15d583672b335e155)
+        ;
+
+        
+    
+    
+            var circle_marker_77b9d25355a68ac8af290a85162084ef = L.circleMarker(
+                [38.3191733026337, 140.881871802567],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_68eee496571b7e0d9833566970369527 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_50847ed07d58e9fb3a952790cf247d60 = $(`<div id="html_50847ed07d58e9fb3a952790cf247d60" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Vegalta Sendai<br><b>Stadium:</b> Yurtec Stadium Sendai<br><b>Average Spectators:</b> 12912<br><b>League:</b> J2</div>`)[0];
+                popup_68eee496571b7e0d9833566970369527.setContent(html_50847ed07d58e9fb3a952790cf247d60);
+            
+        
+
+        circle_marker_77b9d25355a68ac8af290a85162084ef.bindPopup(popup_68eee496571b7e0d9833566970369527)
+        ;
+
+        
+    
+    
+            var circle_marker_ae051431b016e792a1d706d4c670b968 = L.circleMarker(
+                [35.6223798149826, 138.589755525456],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_e5bf30d89cf14e52077b9bf621291946 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5593464e589816ec499299fb64e1d525 = $(`<div id="html_5593464e589816ec499299fb64e1d525" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Ventforet Kofu<br><b>Stadium:</b> JIT Recycle Ink Stadium<br><b>Average Spectators:</b> 8851<br><b>League:</b> J2</div>`)[0];
+                popup_e5bf30d89cf14e52077b9bf621291946.setContent(html_5593464e589816ec499299fb64e1d525);
+            
+        
+
+        circle_marker_ae051431b016e792a1d706d4c670b968.bindPopup(popup_e5bf30d89cf14e52077b9bf621291946)
+        ;
+
+        
+    
+    
+            var circle_marker_b3b84e17a5acf4db4890013d4dd73020 = L.circleMarker(
+                [34.6568015515712, 135.169615168768],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_f94e109d780f2c6dde8e90bbbe149580 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_01a1e2841b76a2a974b57bfee8268b79 = $(`<div id="html_01a1e2841b76a2a974b57bfee8268b79" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Vissel Kobe<br><b>Stadium:</b> Noevir Stadium Kobe<br><b>Average Spectators:</b> 22833<br><b>League:</b> J1</div>`)[0];
+                popup_f94e109d780f2c6dde8e90bbbe149580.setContent(html_01a1e2841b76a2a974b57bfee8268b79);
+            
+        
+
+        circle_marker_b3b84e17a5acf4db4890013d4dd73020.bindPopup(popup_f94e109d780f2c6dde8e90bbbe149580)
+        ;
+
+        
+    
+    
+            var circle_marker_d8636cfa3c1c0cac465a2010061e8b19 = L.circleMarker(
+                [32.8386661455397, 130.039406838852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_bda272f3f67259388eb2e5804bc93030 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_379e2bb64eb97ce5b9fb5a4ae502ca1a = $(`<div id="html_379e2bb64eb97ce5b9fb5a4ae502ca1a" style="width: 100.0%; height: 100.0%;"><b>Team:</b> V-Varen Nagasaki<br><b>Stadium:</b> Transcosmos Stadium Nagasaki<br><b>Average Spectators:</b> 7211<br><b>League:</b> J2</div>`)[0];
+                popup_bda272f3f67259388eb2e5804bc93030.setContent(html_379e2bb64eb97ce5b9fb5a4ae502ca1a);
+            
+        
+
+        circle_marker_d8636cfa3c1c0cac465a2010061e8b19.bindPopup(popup_bda272f3f67259388eb2e5804bc93030)
+        ;
+
+        
+    
+    
+            var circle_marker_9be736a34833f25fd1ac6f561a87a20b = L.circleMarker(
+                [35.4692859405235, 139.603818696615],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_75a5f8e211d28559917bc3c14b52fb89 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_93903d304ee75471dff63bc20453c6ad = $(`<div id="html_93903d304ee75471dff63bc20453c6ad" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Y.S.C.C. Yokohama<br><b>Stadium:</b> NHK Spring Mitsuzawa Football Stadium<br><b>Average Spectators:</b> 1411<br><b>League:</b> J3</div>`)[0];
+                popup_75a5f8e211d28559917bc3c14b52fb89.setContent(html_93903d304ee75471dff63bc20453c6ad);
+            
+        
+
+        circle_marker_9be736a34833f25fd1ac6f561a87a20b.bindPopup(popup_75a5f8e211d28559917bc3c14b52fb89)
+        ;
+
+        
+    
+    
+            var circle_marker_c9e277c47ceacc162bcca22b86963d10 = L.circleMarker(
+                [35.5101, 139.6062],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_81119273939f8f0e5d632245fdaa91dd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_77b522a2dc71200b799a22c07a4ae5fd = $(`<div id="html_77b522a2dc71200b799a22c07a4ae5fd" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Yokohama F. Marinos<br><b>Stadium:</b> Nissan Stadium<br><b>Average Spectators:</b> 22979<br><b>League:</b> J1</div>`)[0];
+                popup_81119273939f8f0e5d632245fdaa91dd.setContent(html_77b522a2dc71200b799a22c07a4ae5fd);
+            
+        
+
+        circle_marker_c9e277c47ceacc162bcca22b86963d10.bindPopup(popup_81119273939f8f0e5d632245fdaa91dd)
+        ;
+
+        
+    
+    
+            var circle_marker_fc34b562e29c3b60468764c3e1f68a67 = L.circleMarker(
+                [35.4691574302721, 139.603806849017],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_12383f6fda97943795c284d33cdc3bee = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_25383f2c0f55221e7f7476b675c7dcdf = $(`<div id="html_25383f2c0f55221e7f7476b675c7dcdf" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Yokohama FC<br><b>Stadium:</b> NHK Spring Mitsuzawa Football Stadium<br><b>Average Spectators:</b> 6608<br><b>League:</b> J2</div>`)[0];
+                popup_12383f6fda97943795c284d33cdc3bee.setContent(html_25383f2c0f55221e7f7476b675c7dcdf);
+            
+        
+
+        circle_marker_fc34b562e29c3b60468764c3e1f68a67.bindPopup(popup_12383f6fda97943795c284d33cdc3bee)
+        ;
+
+        
+    
+    
+            var circle_marker_8ae069cc82e1d61333e82bf233c018c0 = L.circleMarker(
+                [36.5758475657165, 136.605254486948],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4f75fb3b1adab321392b736ca28fadf0);
+        
+    
+        var popup_d181919f6dca1b21b5fec745d7bff312 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a0595033a2bd142c4499cff4a6db0560 = $(`<div id="html_a0595033a2bd142c4499cff4a6db0560" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Zweigen Kanazawa<br><b>Stadium:</b> Ishikawa Athletics Stadium<br><b>Average Spectators:</b> 5207<br><b>League:</b> J3</div>`)[0];
+                popup_d181919f6dca1b21b5fec745d7bff312.setContent(html_a0595033a2bd142c4499cff4a6db0560);
+            
+        
+
+        circle_marker_8ae069cc82e1d61333e82bf233c018c0.bindPopup(popup_d181919f6dca1b21b5fec745d7bff312)
+        ;
+
+        
+    
+</script>
+</html>
